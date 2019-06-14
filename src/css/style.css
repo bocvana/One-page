@@ -156,7 +156,6 @@ header {
 }
 .second-container {
   width: 90%;
-  height: 90%;
   margin: -1px auto;
   background-color: #a687fb;
 }
@@ -170,12 +169,12 @@ header {
 }
 .second-subcontainer {
   width: 90%;
-  height: auto;
   margin: 90px auto;
 }
 .second-subcontainer img {
   width: 35%;
   float: left;
+  margin-bottom: 40px;
 }
 .second-subcontainer p {
   width: 50%;
@@ -330,7 +329,7 @@ footer .contact {
 #arrow.arrow-visible {
   display: block;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 730px) {
   body {
     overflow-x: hidden;
   }
@@ -383,7 +382,7 @@ footer .contact {
   }
   .middle-line {
     position: relative;
-    margin: -2% 0 -2% 50%;
+    margin: -15% 0 -2% 50%;
     z-index: 1;
     border-left-color: #707070;
   }
@@ -452,7 +451,8 @@ footer .contact {
   } 
 @media only screen and (max-width: 320px) {
   .middle-line {
-    margin: 11% 0 -3% 50%;
+    height: 200px;
+    margin: -36% 0 -3% 50%;
   }
   .second-subcontainer p {
     font-size: 13px;
