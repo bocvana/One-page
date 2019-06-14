@@ -28,6 +28,7 @@ header {
   }
 .drop-down.drop-down-visible {
   right: 0;
+  z-index: 1;
   transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
 }
